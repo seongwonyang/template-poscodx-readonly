@@ -1,5 +1,5 @@
 forEach: BoundedContext
-path: {{nameCamelCase}}/README.md
+path: {{nameCamelCase}}
 fileName: README.md
 ---
 # {{nameCamelCase}}-readonly
