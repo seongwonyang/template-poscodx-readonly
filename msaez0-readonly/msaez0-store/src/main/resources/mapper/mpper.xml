@@ -1,0 +1,12 @@
+forEach: BoundedContext
+path: {{nameCamelCase}}/{{nameCamelCase}}-store/src/main/resources/mapper
+fileName: mpper.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.poscodx.sample.{{nameCamelCase}}.store.postgresql.mapper.mpperMapper">
+    <select id="findById" parameterType="map" resultType="map">/* TODO 
+ select * from table where ...
+ */</select>
+</mapper>

@@ -1,0 +1,11 @@
+forEach: Aggregate
+path: {{boundedContext.nameCamelCase}}/{{boundedContext.nameCamelCase}}-store/src/main/resources/mapper
+fileName: Sample.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.poscodx.sample.{{boundedContext.nameCamelCase}}.store.postgresql.mapper.{{namePascalCase}}Mapper">
+    <select id="getInfo" resultType="{{namePascalCase}}">select current_date, current_timestamp, current_time, current_database(), current_user</select>
+    <select id="getInfoMap" resultType="map">select current_date, current_timestamp, current_time, current_database(), current_user</select>
+</mapper>
