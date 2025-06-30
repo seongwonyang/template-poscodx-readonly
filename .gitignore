@@ -1,5 +1,5 @@
 forEach: BoundedContext
-path: {{nameCamelCase}}/{{nameCamelCase}}-readonly/.gitignore
+path: {{nameCamelCase}}/{{nameCamelCase}}-readonly
 fileName: .gitignore
 ---
 **/.metadata/

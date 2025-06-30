@@ -1,5 +1,5 @@
 forEach: BoundedContext
-path: {{boundedContext.nameCamelCase}}/{{boundedContext.nameCamelCase}}-facade
+path: {{nameCamelCase}}/{{nameCamelCase}}-facade
 fileName: pom.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
