@@ -15,9 +15,9 @@ fileName: pom.xml
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>msaez0-store</module>
-        <module>msaez0-feature</module>
-        <module>msaez0-facade</module>
-        <module>msaez0-boot</module>
+        <module>{{nameCamelCase}}-store</module>
+        <module>{{nameCamelCase}}-feature</module>
+        <module>{{nameCamelCase}}-facade</module>
+        <module>{{nameCamelCase}}-boot</module>
     </modules>
 </project>
